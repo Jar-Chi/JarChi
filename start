@@ -19,5 +19,5 @@ if [ ! -f ./tg ]; then
    echo -e "                        JarChi                           "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
-curl "https://api.telegram.org/bot347593440:AAEfrg1l1BjXqT6HajkAkLTwJZ1rQCZtdVE/sendmessage" -F "chat_id=-" -F "text= JarChi IS NOW RUNNING "
+curl "https://api.telegram.org/bot408816668:AAFij7E4PouQijy58RkgVSuRHzecxkqStYI/sendmessage" -F "chat_id=-" -F "text= JarChi IS NOW RUNNING "
    ./tg -s ./bot/tabchi.lua
