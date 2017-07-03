@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 cd $HOME/botchi
-token="Token Your Bot api"
+token="Token"
 function print_logo() {
 	echo -e "\033[38;5;600m"
-	echo -e "          TabLiqGar"
+	echo -e "          JarChi"
 	echo -e "          Api Bot"
 	echo -e "\n\e[36m"
 }
@@ -22,8 +22,8 @@ if [ ! $token ]; then
 
   print_logo
    echo -e "\033[38;5;208m"
-   echo -e "                        TabLiqGar                           "
+   echo -e "                         JarChi                          "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
-curl "https://api.telegram.org/bot347593440:AAEfrg1l1BjXqT6HajkAkLTwJZ1rQCZtdVE/sendmessage" -F "chat_id=-" -F "text= botchi IS NOW RUNNING "
+curl "https://api.telegram.org/bot408816668:AAFij7E4PouQijy58RkgVSuRHzecxkqStYI/sendmessage" -F "chat_id=-" -F "text= botchi IS NOW RUNNING "
     ./tg -s ./bot/api.lua -p PROFILE --bot=$token
