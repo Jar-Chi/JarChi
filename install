@@ -31,5 +31,5 @@ chmod +x apistart
 RED='\033[0;31m'
 NC='\033[0m'
 CYAN='\033[0;36m'
-echo -e "${CYAN}Pleace Send ./start${NC}"
+echo -e "${CYAN}Please Send ./start${NC}"
 exit
